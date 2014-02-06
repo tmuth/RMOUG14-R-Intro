@@ -1,0 +1,2 @@
+# cygwin cron
+* * * * * source /home/tmuth/.bashrc; Rscript "M:/Dropbox/MyFiles/Presentations/RMOUG 2014/Intro to R/cron/cron-test1.R" > ~tmuth/cron.log 2>&1
