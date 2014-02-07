@@ -1,6 +1,7 @@
 # http://cran.r-project.org/web/packages/ROracle/index.html
 # http://www.inside-r.org/node/48947
-library(ROracle)
+library(ROracle) # Note the binary version of ROracle is not available for R 3.x+ yet. You can download and build it from source
+                 # or use RJDBC
 ora <- Oracle() ## or dbDriver("Oracle")
 con <- dbConnect(ora, username = "hr", password = "hr",
                  dbname = "pdborcl")
