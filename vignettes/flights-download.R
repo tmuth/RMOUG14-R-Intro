@@ -1,7 +1,7 @@
 library(RCurl)
 
 setwd("D:/Temp/on-time-flight-data/2013")
-for (y in 2010:2010){
+for (y in 2013:2013){
   print(y)
   for (m in 1:12){
     print(m)
